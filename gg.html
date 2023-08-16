@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>5 Squares</title>
+  
+    <style>
+      .square {
+        width: 100px;
+        height: 100px;
+        background-color: #009eff;
+      }
+      .top-left {
+        position: absolute;
+        top: 0;
+        left: 0;
+      }
+      .top-right {
+        position: absolute;
+        top: 0;
+        right: 0;
+      }
+      .bottom-left {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+      }
+      .bottom-right {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+      }
+      .center {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="square top-left"></div>
+    <div class="square top-right"></div>
+    <div class="square bottom-left"></div>
+    <div class="square bottom-right"></div>
+    <div class="square center"></div>
+  </body>
+</html>
